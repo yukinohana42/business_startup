@@ -1,0 +1,290 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Day1 Facilitator Script: Value Detective</title>
+  <style>
+@page { size: A4; margin: 14mm 13mm; }
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  color: #1f2937;
+  background: #f7f1e6;
+  font-family: "Yu Gothic", "Meiryo", "Noto Sans CJK JP", "Hiragino Sans", Arial, sans-serif;
+  line-height: 1.65;
+}
+.document {
+  background: #fffaf1;
+}
+.meta {
+  color: #5f6c7b;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+h1, h2, h3 {
+  color: #18324a;
+  line-height: 1.25;
+  letter-spacing: 0;
+}
+h1 {
+  font-size: 28px;
+  border-bottom: 3px solid #ef8354;
+  padding-bottom: 8px;
+}
+h2 {
+  font-size: 20px;
+  margin-top: 22px;
+}
+h3 {
+  font-size: 16px;
+  margin-top: 18px;
+}
+p, li, td, th {
+  font-size: 13px;
+}
+ul, ol {
+  padding-left: 1.4em;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 10px 0 16px;
+  background: #fff;
+}
+th {
+  background: #e5f1ed;
+  color: #18324a;
+}
+th, td {
+  border: 1px solid #cad5df;
+  padding: 7px 8px;
+  vertical-align: top;
+}
+pre {
+  white-space: pre-wrap;
+  background: #ffffff;
+  border: 1px solid #d6e0e8;
+  border-left: 5px solid #ef8354;
+  padding: 12px;
+  min-height: 38px;
+  font-family: "Yu Gothic", "Meiryo", sans-serif;
+}
+code {
+  font-family: Consolas, "Yu Gothic", monospace;
+}
+strong {
+  color: #2f6f5e;
+}
+.page {
+  break-after: page;
+  page-break-after: always;
+}
+.page:last-child {
+  break-after: auto;
+  page-break-after: auto;
+}
+.a4-page {
+  min-height: 267mm;
+  padding: 0;
+}
+.slide-page {
+  width: 13.333in;
+  height: 7.5in;
+  padding: 0.55in 0.72in;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background:
+    linear-gradient(90deg, rgba(47,111,94,0.10), transparent 28%),
+    #fffaf1;
+  border-left: 0.16in solid #ef8354;
+}
+.slide-page h1 {
+  font-size: 42px;
+  border: 0;
+  padding: 0;
+  margin: 0 0 18px;
+}
+.slide-page h2 {
+  font-size: 28px;
+  color: #2f6f5e;
+  margin: 0 0 18px;
+}
+.slide-page p,
+.slide-page li {
+  font-size: 24px;
+}
+.slide-page ul,
+.slide-page ol {
+  margin-top: 10px;
+}
+.slide-number {
+  position: absolute;
+  right: 0.36in;
+  bottom: 0.24in;
+  color: #8a97a6;
+  font-size: 12px;
+}
+@media screen {
+  body {
+    padding: 24px;
+  }
+  .document {
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 28px;
+    box-shadow: 0 12px 36px rgba(24, 50, 74, 0.16);
+  }
+  .slide-page {
+    position: relative;
+    margin: 0 auto 28px;
+    box-shadow: 0 12px 34px rgba(24, 50, 74, 0.18);
+  }
+}
+@media print {
+  body {
+    background: #fff;
+  }
+  .document {
+    padding: 0;
+  }
+  .slide-page {
+    position: relative;
+  }
+}
+</style>
+</head>
+<body>
+  <main class="document a4">
+    <div class="meta">Source: scripts/day1_facilitator_script.md</div>
+    <section class="a4-page"><h1>Day1 Facilitator Script: Value Detective</h1>
+<h2>Overview</h2>
+<p>今日の目的は、仕事を「お金をもらうこと」だけでなく、「誰かの状態を少し良くすること」として見られるようにすること。</p>
+<p>親は答えを教えない。
+短い問いを出し、子供の言葉を拾う。</p>
+<h2>Materials</h2>
+<ul>
+<li><code>slides/kids/day1_lecture_slides.md</code></li>
+<li><code>worksheets/day1_value_detective_worksheet.md</code></li>
+<li>必要なら <code>cards/value_transformation_cards.md</code></li>
+</ul>
+<h2>Time Plan</h2>
+<table>
+<thead>
+<tr>
+<th>Time</th>
+<th>Slide/Work</th>
+<th>Parent Says</th>
+<th>Child Action</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>0:00-0:05</td>
+<td>Slide 1</td>
+<td>今日のミッションを伝える</td>
+<td>今日やることを聞く</td>
+</tr>
+<tr>
+<td>0:05-0:12</td>
+<td>Slides 2-3</td>
+<td>仕事のイメージを聞く</td>
+<td>自分の考えを話す</td>
+</tr>
+<tr>
+<td>0:12-0:20</td>
+<td>Slides 4-6</td>
+<td>価値とお金をBefore/Afterで見る</td>
+<td>例を見て考える</td>
+</tr>
+<tr>
+<td>0:20-0:32</td>
+<td>Worksheet 2-6</td>
+<td>身近な仕事を1つ選ぶ</td>
+<td>書く</td>
+</tr>
+<tr>
+<td>0:32-0:40</td>
+<td>Slides 7-8</td>
+<td>誰がどう変わったかを聞く</td>
+<td>共有する</td>
+</tr>
+<tr>
+<td>0:40-0:45</td>
+<td>Slides 9-10</td>
+<td>Final Missionと観察を決める</td>
+<td>一文を書く</td>
+</tr>
+</tbody></table>
+<h2>Script</h2>
+<h3>0:00-0:05 Opening</h3>
+<p>Parent says:</p>
+<p>「今日は価値探偵です。仕事やお金の正体を、探偵みたいに見てみます。」</p>
+<p>Ask:</p>
+<p>「仕事って、何をしたら仕事になると思う？」</p>
+<p>If stuck:</p>
+<p>「会社とか大人の話じゃなくてOK。ラーメン屋、コンビニ、塾、動画でも考えてみよう。」</p>
+<h3>0:05-0:12 Opening Question</h3>
+<p>Parent says:</p>
+<p>「今の考えで大丈夫です。正解を当てる時間ではありません。」</p>
+<p>Ask:</p>
+<p>「お金をもらっていなくても、誰かが助かっていたら仕事っぽいと思う？」</p>
+<p>If stuck:</p>
+<p>「家で誰かを手伝った時、相手はどう変わった？」</p>
+<h3>0:12-0:20 Concept</h3>
+<p>Parent says:</p>
+<p>「今日の見方は、仕事とは誰かの状態を少し良くすること、です。」</p>
+<p>Ask:</p>
+<p>「ラーメン屋さんなら、食べる前と後で人はどう変わる？」</p>
+<p>If stuck:</p>
+<p>「お腹がすいた、から、どうなる？」</p>
+<h3>0:20-0:32 Main Work</h3>
+<p>Parent says:</p>
+<p>「身近な仕事を1つ選びます。すごい仕事でなくてOKです。」</p>
+<p>Ask:</p>
+<p>「その仕事で助かる人は誰？」</p>
+<p>If stuck:</p>
+<p>「学校帰りの中学生、急いでいる人、わからなくて困っている人、みたいに1人を思い浮かべよう。」</p>
+<h3>0:32-0:40 Share</h3>
+<p>Parent says:</p>
+<p>「発表では、すごいかどうかではなく、変化を見ます。」</p>
+<p>Ask:</p>
+<p>「Beforeは何？ Afterは何？」</p>
+<p>If stuck:</p>
+<p>「困った、面倒、退屈、わからない、欲しい、のどれに近い？」</p>
+<h3>0:40-0:45 Final Mission</h3>
+<p>Parent says:</p>
+<p>「最後に、自分の言葉で一文を完成させます。」</p>
+<p>Ask:</p>
+<p>「仕事とは、何を何に変えること？」</p>
+<p>If stuck:</p>
+<p>「今日選んだ仕事のBeforeとAfterをそのまま入れてみよう。」</p>
+<h2>30min Version</h2>
+<ul>
+<li>Slides 4-6はラーメン屋の例だけにする。</li>
+<li>ワークは1つの仕事だけにする。</li>
+<li>共有は1人1分にする。</li>
+</ul>
+<h2>45min Version</h2>
+<ul>
+<li>Time Plan通りに進める。</li>
+<li>ワークは身近な仕事を1つにしぼる。</li>
+<li>共有はBefore/Afterだけにする。</li>
+</ul>
+<h2>60min Version</h2>
+<ul>
+<li>仕事を2つ選ぶ。</li>
+<li>価値変換カードを使って、Before/Afterを並べる。</li>
+<li>最後に「お金は何へのありがとうか」をもう一度話す。</li>
+</ul>
+<h2>Do Not Say</h2>
+<ul>
+<li>試す前に否定する言い方。</li>
+<li>お金だけで見る言い方。</li>
+<li>親が先に答えを決める言い方。</li>
+<li>子供2人を比べる言い方。</li>
+</ul>
+</section>
+  </main>
+</body>
+</html>

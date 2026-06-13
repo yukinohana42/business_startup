@@ -21,6 +21,8 @@ pass
 - 4日分の進行台本。
 - カード仕様。
 - 具体カード教材。
+- 確認用HTML/PDF生成物。
+- 生成スクリプト。
 - TODOとMANIFEST。
 
 ## Missing Deliverables
@@ -29,7 +31,9 @@ pass
 
 未作成だが次フェーズ扱いのもの:
 
-- PDF、PPTX、PNG、HTML/CSS出力。
+- PPTX出力。
+- PNG出力。
+- 生成HTML/PDFの人間による目視確認。
 
 ## Issues Fixed
 
@@ -48,6 +52,7 @@ pass
 | 子供向けprompt | 一部の英語ラベルが硬かった | 「specific person」など、意味が伝わる表現に調整 |
 | 進行台本 | 親がそのまま進める台本が未作成だった | 4日分の台本、30分版、45分版、60分版を追加 |
 | カード教材 | カード仕様だけで、実際のカード文面が未作成だった | 5種のカード教材をMarkdownで追加 |
+| 出力工程 | PDF/HTML化の手順がなかった | `tools/export_materials.cjs` を追加し、確認用HTML/PDFを生成 |
 
 ## Checks
 
@@ -68,8 +73,11 @@ pass
 - 進行台本に時間調整がある: pass
 - カード教材5種が存在する: pass
 - カード教材が競争や評価に寄っていない: pass
+- A4確認用HTML/PDFが存在する: pass
+- 16:9確認用HTML/PDFが存在する: pass
+- PDFファイルが非ゼロサイズで生成されている: pass
 - 既存IP模倣指示なし: pass
-- PDF、PPTX、PNG、HTML/CSS生成なし: pass
+- PPTX、PNG生成なし: pass
 - 秘密情報、ブラウザプロファイル混入なし: pass
 
 ## Remaining Notes
@@ -77,4 +85,4 @@ pass
 固定情報源や受け入れ基準には、避ける表現の一覧として強い言葉が残っている。
 これはチェック用の基準として必要なため、教材本文とは分けて扱う。
 
-次に進むなら、人間確認後にPDF、PPTX、PNG、HTML/CSSなどの出力へ進む。
+次に進むなら、生成HTML/PDFの目視確認後にPPTX、PNGなどの出力へ進む。

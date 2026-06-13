@@ -44,11 +44,16 @@ Codexは、最終的に次の成果物をプロジェクト内に必ず作るこ
 - `slides/parents/parent_explanation_slides.md`: 親向け説明スライド初期版
 - `slides/kids/`: 4日分のレクチャースライド初期版
 - `infographics/`: スライド代替用のインフォグラフィックprompt packet
+- `scripts/`: 4日分の親向け進行台本
+- `cards/`: ワークで使うカード教材
+- `deliverables/v1/`: 内容確認後に生成した確認用HTML/PDF
+- `tools/`: 生成スクリプト
 - `.agents/skills/`: Codex用の詳細Skill定義
 - `prompts/`: Codexに順番に依頼するためのタスクプロンプト
 
 ## 作業方針
 
-まずはMarkdownで内容を固定する。PDF、PPTX、PNG、HTML/CSSへの変換は、内容レビュー後に行う。
+まずはMarkdownで内容を固定する。内容レビュー後に、確認用HTML/PDFへ変換する。
+現在の確認用出力は `deliverables/v1/index.html` から見る。
 
-教材生成物とdocs-only作業は分ける。画像生成を行う場合は、まずprompt packetを作り、人間が確認してから1枚ずつ進める。
+PPTX、PNG、画像生成へ進む場合は、まずprompt packetと生成済みHTML/PDFを確認してから1つずつ進める。

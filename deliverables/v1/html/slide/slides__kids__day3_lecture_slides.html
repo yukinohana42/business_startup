@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Day3 Lecture Slides: Idea &amp; Want Signal Builder</title>
+  <style>
+@page { size: 13.333in 7.5in; margin: 0; }
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  color: #1f2937;
+  background: #f7f1e6;
+  font-family: "Yu Gothic", "Meiryo", "Noto Sans CJK JP", "Hiragino Sans", Arial, sans-serif;
+  line-height: 1.65;
+}
+.document {
+  background: #fffaf1;
+}
+.meta {
+  color: #5f6c7b;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+h1, h2, h3 {
+  color: #18324a;
+  line-height: 1.25;
+  letter-spacing: 0;
+}
+h1 {
+  font-size: 28px;
+  border-bottom: 3px solid #ef8354;
+  padding-bottom: 8px;
+}
+h2 {
+  font-size: 20px;
+  margin-top: 22px;
+}
+h3 {
+  font-size: 16px;
+  margin-top: 18px;
+}
+p, li, td, th {
+  font-size: 13px;
+}
+ul, ol {
+  padding-left: 1.4em;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 10px 0 16px;
+  background: #fff;
+}
+th {
+  background: #e5f1ed;
+  color: #18324a;
+}
+th, td {
+  border: 1px solid #cad5df;
+  padding: 7px 8px;
+  vertical-align: top;
+}
+pre {
+  white-space: pre-wrap;
+  background: #ffffff;
+  border: 1px solid #d6e0e8;
+  border-left: 5px solid #ef8354;
+  padding: 12px;
+  min-height: 38px;
+  font-family: "Yu Gothic", "Meiryo", sans-serif;
+}
+code {
+  font-family: Consolas, "Yu Gothic", monospace;
+}
+strong {
+  color: #2f6f5e;
+}
+.page {
+  break-after: page;
+  page-break-after: always;
+}
+.page:last-child {
+  break-after: auto;
+  page-break-after: auto;
+}
+.a4-page {
+  min-height: 267mm;
+  padding: 0;
+}
+.slide-page {
+  width: 13.333in;
+  height: 7.5in;
+  padding: 0.55in 0.72in;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background:
+    linear-gradient(90deg, rgba(47,111,94,0.10), transparent 28%),
+    #fffaf1;
+  border-left: 0.16in solid #ef8354;
+}
+.slide-page h1 {
+  font-size: 42px;
+  border: 0;
+  padding: 0;
+  margin: 0 0 18px;
+}
+.slide-page h2 {
+  font-size: 28px;
+  color: #2f6f5e;
+  margin: 0 0 18px;
+}
+.slide-page p,
+.slide-page li {
+  font-size: 24px;
+}
+.slide-page ul,
+.slide-page ol {
+  margin-top: 10px;
+}
+.slide-number {
+  position: absolute;
+  right: 0.36in;
+  bottom: 0.24in;
+  color: #8a97a6;
+  font-size: 12px;
+}
+@media screen {
+  body {
+    padding: 24px;
+  }
+  .document {
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 28px;
+    box-shadow: 0 12px 36px rgba(24, 50, 74, 0.16);
+  }
+  .slide-page {
+    position: relative;
+    margin: 0 auto 28px;
+    box-shadow: 0 12px 34px rgba(24, 50, 74, 0.18);
+  }
+}
+@media print {
+  body {
+    background: #fff;
+  }
+  .document {
+    padding: 0;
+  }
+  .slide-page {
+    position: relative;
+  }
+}
+</style>
+</head>
+<body>
+  <main class="document slides">
+    <div class="meta">Source: slides/kids/day3_lecture_slides.md</div>
+    <section class="page slide-page"><h1>Day3 Lecture Slides: Idea &amp; Want Signal Builder</h1>
+<div class="slide-number">1</div></section>
+<section class="page slide-page"><h1>Day3</h1>
+<h2>アイデア・欲しいサインビルダー</h2>
+<p>今日のミッション:
+誰の何を助けるかを形にし、
+小さく試す方法を決めろ。</p>
+<div class="slide-number">2</div></section>
+<section class="page slide-page"><h1>助けたい人って誰？</h1>
+<p>「みんな」ではなく、
+<strong>それを本当に欲しい具体的な人</strong>。</p>
+<p>その人の顔が浮かぶくらいにする。</p>
+<div class="slide-number">3</div></section>
+<section class="page slide-page"><h1>「みんな」は広すぎる</h1>
+<p>「学生みんな」より、</p>
+<p>テスト前に何から始めればいいか迷う中2。</p>
+<p>こっちの方が考えやすい。</p>
+<div class="slide-number">4</div></section>
+<section class="page slide-page"><h1>アイデアの型</h1>
+<p>私たちは、
+＿＿＿＿の
+＿＿＿＿を
+＿＿＿＿に変える。</p>
+<p>誰の、何を、どう変える？</p>
+<div class="slide-number">5</div></section>
+<section class="page slide-page"><h1>ピタッとはまるって何？</h1>
+<p>中学生向けに言うと、
+<strong>作ったものと欲しい人の気持ちがピタッとはまること</strong>。</p>
+<p>セミナーでは、
+PMFと呼ぶこともある。</p>
+<div class="slide-number">6</div></section>
+<section class="page slide-page"><h1>欲しいサイン</h1>
+<p>欲しいと言う。
+使ってみたいと言う。
+もう一回使う。
+友達に教える。
+自分から質問する。</p>
+<p>これがピタッとはまるヒント。</p>
+<div class="slide-number">7</div></section>
+<section class="page slide-page"><h1>完璧に作らなくていい</h1>
+<p>最初から完成品を作らない。</p>
+<p>紙に書く。
+見せる。
+1つ質問する。
+1日だけ試す。
+5分だけ使ってもらう。</p>
+<p>これで十分。</p>
+<div class="slide-number">8</div></section>
+<section class="page slide-page"><h1>赤信号は失敗じゃない</h1>
+<p>反応が悪い。
+使ってくれない。
+欲しいと言われない。</p>
+<p>それは失敗ではなく、
+<strong>次に変えるサイン</strong>。</p>
+<div class="slide-number">9</div></section>
+<section class="page slide-page"><h1>今日のワーク</h1>
+<ol>
+<li>助けたい人を1人決める。</li>
+<li>Before / Afterを書く。</li>
+<li>解決案を3つ出す。</li>
+<li>一番小さい実験を決める。</li>
+</ol>
+<div class="slide-number">10</div></section>
+<section class="page slide-page"><h1>Final Mission</h1>
+<p>私たちは、
+＿＿＿＿の＿＿＿＿を＿＿＿＿に変える。</p>
+<p>最初に試す一番小さいことは、
+＿＿＿＿。</p>
+<div class="slide-number">11</div></section>
+  </main>
+</body>
+</html>

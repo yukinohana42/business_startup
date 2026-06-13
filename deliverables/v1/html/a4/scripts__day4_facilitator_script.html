@@ -1,0 +1,290 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Day4 Facilitator Script: Pitch Challenger</title>
+  <style>
+@page { size: A4; margin: 14mm 13mm; }
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  color: #1f2937;
+  background: #f7f1e6;
+  font-family: "Yu Gothic", "Meiryo", "Noto Sans CJK JP", "Hiragino Sans", Arial, sans-serif;
+  line-height: 1.65;
+}
+.document {
+  background: #fffaf1;
+}
+.meta {
+  color: #5f6c7b;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+h1, h2, h3 {
+  color: #18324a;
+  line-height: 1.25;
+  letter-spacing: 0;
+}
+h1 {
+  font-size: 28px;
+  border-bottom: 3px solid #ef8354;
+  padding-bottom: 8px;
+}
+h2 {
+  font-size: 20px;
+  margin-top: 22px;
+}
+h3 {
+  font-size: 16px;
+  margin-top: 18px;
+}
+p, li, td, th {
+  font-size: 13px;
+}
+ul, ol {
+  padding-left: 1.4em;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 10px 0 16px;
+  background: #fff;
+}
+th {
+  background: #e5f1ed;
+  color: #18324a;
+}
+th, td {
+  border: 1px solid #cad5df;
+  padding: 7px 8px;
+  vertical-align: top;
+}
+pre {
+  white-space: pre-wrap;
+  background: #ffffff;
+  border: 1px solid #d6e0e8;
+  border-left: 5px solid #ef8354;
+  padding: 12px;
+  min-height: 38px;
+  font-family: "Yu Gothic", "Meiryo", sans-serif;
+}
+code {
+  font-family: Consolas, "Yu Gothic", monospace;
+}
+strong {
+  color: #2f6f5e;
+}
+.page {
+  break-after: page;
+  page-break-after: always;
+}
+.page:last-child {
+  break-after: auto;
+  page-break-after: auto;
+}
+.a4-page {
+  min-height: 267mm;
+  padding: 0;
+}
+.slide-page {
+  width: 13.333in;
+  height: 7.5in;
+  padding: 0.55in 0.72in;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background:
+    linear-gradient(90deg, rgba(47,111,94,0.10), transparent 28%),
+    #fffaf1;
+  border-left: 0.16in solid #ef8354;
+}
+.slide-page h1 {
+  font-size: 42px;
+  border: 0;
+  padding: 0;
+  margin: 0 0 18px;
+}
+.slide-page h2 {
+  font-size: 28px;
+  color: #2f6f5e;
+  margin: 0 0 18px;
+}
+.slide-page p,
+.slide-page li {
+  font-size: 24px;
+}
+.slide-page ul,
+.slide-page ol {
+  margin-top: 10px;
+}
+.slide-number {
+  position: absolute;
+  right: 0.36in;
+  bottom: 0.24in;
+  color: #8a97a6;
+  font-size: 12px;
+}
+@media screen {
+  body {
+    padding: 24px;
+  }
+  .document {
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 28px;
+    box-shadow: 0 12px 36px rgba(24, 50, 74, 0.16);
+  }
+  .slide-page {
+    position: relative;
+    margin: 0 auto 28px;
+    box-shadow: 0 12px 34px rgba(24, 50, 74, 0.18);
+  }
+}
+@media print {
+  body {
+    background: #fff;
+  }
+  .document {
+    padding: 0;
+  }
+  .slide-page {
+    position: relative;
+  }
+}
+</style>
+</head>
+<body>
+  <main class="document a4">
+    <div class="meta">Source: scripts/day4_facilitator_script.md</div>
+    <section class="a4-page"><h1>Day4 Facilitator Script: Pitch Challenger</h1>
+<h2>Overview</h2>
+<p>今日の目的は、価値の変化を3分で伝えること。</p>
+<p>ピッチはすごさ自慢ではない。
+誰の何をどう変えるかを、短く自分の言葉で話す時間である。</p>
+<h2>Materials</h2>
+<ul>
+<li><code>slides/kids/day4_lecture_slides.md</code></li>
+<li><code>worksheets/day4_pitch_reflection_worksheet.md</code></li>
+<li>必要なら <code>cards/pitch_question_cards.md</code></li>
+</ul>
+<h2>Time Plan</h2>
+<table>
+<thead>
+<tr>
+<th>Time</th>
+<th>Slide/Work</th>
+<th>Parent Says</th>
+<th>Child Action</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>0:00-0:05</td>
+<td>Slide 1</td>
+<td>今日のゴールを伝える</td>
+<td>アイデア文を確認する</td>
+</tr>
+<tr>
+<td>0:05-0:12</td>
+<td>Slides 2-4</td>
+<td>ピッチの型を説明する</td>
+<td>伝える順番を確認する</td>
+</tr>
+<tr>
+<td>0:12-0:25</td>
+<td>Worksheet 1-2</td>
+<td>台本を作る</td>
+<td>3分ピッチを書く</td>
+</tr>
+<tr>
+<td>0:25-0:35</td>
+<td>Slides 5-7</td>
+<td>1回目を発表する</td>
+<td>話す、聞く</td>
+</tr>
+<tr>
+<td>0:35-0:42</td>
+<td>Slide 8 / Worksheet 3-4</td>
+<td>聞き手メモと改善をする</td>
+<td>直す</td>
+</tr>
+<tr>
+<td>0:42-0:45</td>
+<td>Slides 9-10</td>
+<td>ふり返りと本番接続をする</td>
+<td>最後の一文を書く</td>
+</tr>
+</tbody></table>
+<h2>Script</h2>
+<h3>0:00-0:05 Opening</h3>
+<p>Parent says:</p>
+<p>「今日はピッチチャレンジャーです。価値の変化を3分で伝えます。」</p>
+<p>Ask:</p>
+<p>「自分たちのアイデアは、誰の何をどう変えるものだった？」</p>
+<p>If stuck:</p>
+<p>「Day3のアイデア文をそのまま見よう。」</p>
+<h3>0:05-0:12 Pitch Frame</h3>
+<p>Parent says:</p>
+<p>「ピッチはすごさ自慢ではありません。聞く人が『誰か助かりそう』と思えるように伝えます。」</p>
+<p>Ask:</p>
+<p>「聞く人が一番知りたいのは、何だと思う？」</p>
+<p>If stuck:</p>
+<p>「誰が助かる？ 何に困っている？ どう変わる？ の3つから考えよう。」</p>
+<h3>0:12-0:25 Write</h3>
+<p>Parent says:</p>
+<p>「きれいな原稿でなくてOKです。短い言葉で書きます。」</p>
+<p>Ask:</p>
+<p>「まず最初の一文はどう言う？」</p>
+<p>If stuck:</p>
+<p>「私たちは、＿＿の＿＿を＿＿に変えるアイデアを考えました、で始めよう。」</p>
+<h3>0:25-0:35 First Pitch</h3>
+<p>Parent says:</p>
+<p>「聞く人は採点しません。誰がどう変わるかをメモします。」</p>
+<p>Ask:</p>
+<p>「発表を聞いて、もっと聞きたいことは1つある？」</p>
+<p>If stuck:</p>
+<p>「誰が助かる？ Beforeは何？ Afterは何？ のどれかで聞こう。」</p>
+<h3>0:35-0:42 Improve</h3>
+<p>Parent says:</p>
+<p>「1回話して終わりではありません。伝わったところを残して、わかりにくいところを短くします。」</p>
+<p>Ask:</p>
+<p>「一番伝わったところはどこ？」</p>
+<p>If stuck:</p>
+<p>「短くできる文を1つだけ選ぼう。」</p>
+<h3>0:42-0:45 Final Reflection</h3>
+<p>Parent says:</p>
+<p>「最後に、起業セミナー本番で見るポイントを決めます。」</p>
+<p>Ask:</p>
+<p>「セミナーでは、どこに注目したい？」</p>
+<p>If stuck:</p>
+<p>「誰の困りごとを見つけたのか。どう小さく試したのか。どちらかを選ぼう。」</p>
+<h2>30min Version</h2>
+<ul>
+<li>ピッチは1分版にする。</li>
+<li>発表は1回だけにする。</li>
+<li>聞き手メモは「もっと聞きたいこと」だけ書く。</li>
+</ul>
+<h2>45min Version</h2>
+<ul>
+<li>Time Plan通りに進める。</li>
+<li>3分ピッチを1回行う。</li>
+<li>改善後は、直した一文だけをもう一度言う。</li>
+</ul>
+<h2>60min Version</h2>
+<ul>
+<li>1回目と2回目のピッチを行う。</li>
+<li>ピッチ問いカードを使う。</li>
+<li>2回目で短くなったところを確認する。</li>
+</ul>
+<h2>Do Not Say</h2>
+<ul>
+<li>勝ち負けを決める言い方。</li>
+<li>点数をつける言い方。</li>
+<li>発表のうまさだけを褒める言い方。</li>
+<li>セミナー本番への不安で急かす言い方。</li>
+</ul>
+</section>
+  </main>
+</body>
+</html>

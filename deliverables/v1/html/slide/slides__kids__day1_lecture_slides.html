@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Day1 Lecture Slides: Value Detective</title>
+  <style>
+@page { size: 13.333in 7.5in; margin: 0; }
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  color: #1f2937;
+  background: #f7f1e6;
+  font-family: "Yu Gothic", "Meiryo", "Noto Sans CJK JP", "Hiragino Sans", Arial, sans-serif;
+  line-height: 1.65;
+}
+.document {
+  background: #fffaf1;
+}
+.meta {
+  color: #5f6c7b;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+h1, h2, h3 {
+  color: #18324a;
+  line-height: 1.25;
+  letter-spacing: 0;
+}
+h1 {
+  font-size: 28px;
+  border-bottom: 3px solid #ef8354;
+  padding-bottom: 8px;
+}
+h2 {
+  font-size: 20px;
+  margin-top: 22px;
+}
+h3 {
+  font-size: 16px;
+  margin-top: 18px;
+}
+p, li, td, th {
+  font-size: 13px;
+}
+ul, ol {
+  padding-left: 1.4em;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 10px 0 16px;
+  background: #fff;
+}
+th {
+  background: #e5f1ed;
+  color: #18324a;
+}
+th, td {
+  border: 1px solid #cad5df;
+  padding: 7px 8px;
+  vertical-align: top;
+}
+pre {
+  white-space: pre-wrap;
+  background: #ffffff;
+  border: 1px solid #d6e0e8;
+  border-left: 5px solid #ef8354;
+  padding: 12px;
+  min-height: 38px;
+  font-family: "Yu Gothic", "Meiryo", sans-serif;
+}
+code {
+  font-family: Consolas, "Yu Gothic", monospace;
+}
+strong {
+  color: #2f6f5e;
+}
+.page {
+  break-after: page;
+  page-break-after: always;
+}
+.page:last-child {
+  break-after: auto;
+  page-break-after: auto;
+}
+.a4-page {
+  min-height: 267mm;
+  padding: 0;
+}
+.slide-page {
+  width: 13.333in;
+  height: 7.5in;
+  padding: 0.55in 0.72in;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background:
+    linear-gradient(90deg, rgba(47,111,94,0.10), transparent 28%),
+    #fffaf1;
+  border-left: 0.16in solid #ef8354;
+}
+.slide-page h1 {
+  font-size: 42px;
+  border: 0;
+  padding: 0;
+  margin: 0 0 18px;
+}
+.slide-page h2 {
+  font-size: 28px;
+  color: #2f6f5e;
+  margin: 0 0 18px;
+}
+.slide-page p,
+.slide-page li {
+  font-size: 24px;
+}
+.slide-page ul,
+.slide-page ol {
+  margin-top: 10px;
+}
+.slide-number {
+  position: absolute;
+  right: 0.36in;
+  bottom: 0.24in;
+  color: #8a97a6;
+  font-size: 12px;
+}
+@media screen {
+  body {
+    padding: 24px;
+  }
+  .document {
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 28px;
+    box-shadow: 0 12px 36px rgba(24, 50, 74, 0.16);
+  }
+  .slide-page {
+    position: relative;
+    margin: 0 auto 28px;
+    box-shadow: 0 12px 34px rgba(24, 50, 74, 0.18);
+  }
+}
+@media print {
+  body {
+    background: #fff;
+  }
+  .document {
+    padding: 0;
+  }
+  .slide-page {
+    position: relative;
+  }
+}
+</style>
+</head>
+<body>
+  <main class="document slides">
+    <div class="meta">Source: slides/kids/day1_lecture_slides.md</div>
+    <section class="page slide-page"><h1>Day1 Lecture Slides: Value Detective</h1>
+<div class="slide-number">1</div></section>
+<section class="page slide-page"><h1>Day1</h1>
+<h2>価値探偵</h2>
+<p>今日のミッション:
+お金と仕事の正体を見破れ。</p>
+<div class="slide-number">2</div></section>
+<section class="page slide-page"><h1>仕事って何？</h1>
+<p>お金をもらうこと？
+会社に行くこと？
+大人がやること？</p>
+<p>まずは自分の考えでOK。</p>
+<div class="slide-number">3</div></section>
+<section class="page slide-page"><h1>今日の見方</h1>
+<p>仕事は、
+<strong>誰かの状態を少し良くすること</strong>。</p>
+<p>つまり、誰かのBeforeをAfterに変えること。</p>
+<div class="slide-number">4</div></section>
+<section class="page slide-page"><h1>価値 = 変化</h1>
+<p>困った → 助かった</p>
+<p>面倒 → ラク</p>
+<p>退屈 → 楽しい</p>
+<p>わからない → できそう</p>
+<div class="slide-number">5</div></section>
+<section class="page slide-page"><h1>例: ラーメン屋</h1>
+<p>Before:
+お腹がすいた。何か食べたい。</p>
+<p>After:
+おいしく食べられた。元気になった。</p>
+<p>この変化が価値。</p>
+<div class="slide-number">6</div></section>
+<section class="page slide-page"><h1>お金は何の対価？</h1>
+<p>お金は、
+<strong>価値が届いたことへの対価</strong>。</p>
+<p>「助かった」「うれしい」が形になったもの。</p>
+<div class="slide-number">7</div></section>
+<section class="page slide-page"><h1>価値変換ワーク</h1>
+<p>身近な仕事を1つ選ぼう。</p>
+<ol>
+<li>誰が助かる？</li>
+<li>Beforeは何？</li>
+<li>Afterは何？</li>
+<li>何にお金を払っている？</li>
+</ol>
+<div class="slide-number">8</div></section>
+<section class="page slide-page"><h1>価値探偵の問い</h1>
+<p>その仕事は、</p>
+<p><strong>誰の何を、どう変えている？</strong></p>
+<p>ここが見えたら、価値探偵レベルアップ。</p>
+<div class="slide-number">9</div></section>
+<section class="page slide-page"><h1>Final Mission</h1>
+<p>この文を完成させよう。</p>
+<p>仕事とは、
+＿＿＿＿を＿＿＿＿に変えること。</p>
+<p>価値とは、
+＿＿＿＿が変わること。</p>
+<div class="slide-number">10</div></section>
+<section class="page slide-page"><h1>次回までの観察</h1>
+<p>家、学校、街、スマホの中で、
+誰かが助かっている仕事を1つ見つけよう。</p>
+<p>「誰がどう変わった？」を見てくる。</p>
+<div class="slide-number">11</div></section>
+  </main>
+</body>
+</html>
