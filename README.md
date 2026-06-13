@@ -44,6 +44,8 @@ Codexは、最終的に次の成果物をプロジェクト内に必ず作るこ
 - `slides/parents/parent_explanation_slides.md`: 親向け説明スライド初期版
 - `slides/kids/`: 4日分のレクチャースライド初期版
 - `infographics/`: スライド代替用のインフォグラフィックprompt packet
+- `docs/gamified_visual_v2_direction.md`: より冒険感のあるv2ビジュアル方針
+- `slides/kids/gamified_v2_slide_storyboard.md`: v2スライド化の対応表
 - `scripts/`: 4日分の親向け進行台本
 - `cards/`: ワークで使うカード教材
 - `deliverables/v1/`: 内容確認後に生成した確認用HTML/PDF
@@ -57,3 +59,4 @@ Codexは、最終的に次の成果物をプロジェクト内に必ず作るこ
 現在の確認用出力は `deliverables/v1/index.html` から見る。
 
 PPTX、PNG、画像生成へ進む場合は、まずprompt packetと生成済みHTML/PDFを確認してから1つずつ進める。
+v2の画像生成では、既存作品名、既存キャラクター名、特定絵柄をpromptに入れない。

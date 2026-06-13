@@ -23,6 +23,9 @@ pass
 - 具体カード教材。
 - 確認用HTML/PDF生成物。
 - 生成スクリプト。
+- gamified v2ビジュアル方針。
+- gamified v2画像生成prompt packet。
+- gamified v2カード台紙仕様。
 - TODOとMANIFEST。
 
 ## Missing Deliverables
@@ -34,6 +37,7 @@ pass
 - PPTX出力。
 - PNG出力。
 - 生成HTML/PDFの人間による目視確認。
+- gamified v2画像候補の生成と人間確認。
 
 ## Issues Fixed
 
@@ -53,6 +57,7 @@ pass
 | 進行台本 | 親がそのまま進める台本が未作成だった | 4日分の台本、30分版、45分版、60分版を追加 |
 | カード教材 | カード仕様だけで、実際のカード文面が未作成だった | 5種のカード教材をMarkdownで追加 |
 | 出力工程 | PDF/HTML化の手順がなかった | `tools/export_materials.cjs` を追加し、確認用HTML/PDFを生成 |
+| 子供向けビジュアル | v1がややシンプルだった | 既存IPを使わないgamified v2方針、画像prompt、スライド対応表、カード台紙仕様を追加 |
 
 ## Checks
 
@@ -76,6 +81,9 @@ pass
 - A4確認用HTML/PDFが存在する: pass
 - 16:9確認用HTML/PDFが存在する: pass
 - PDFファイルが非ゼロサイズで生成されている: pass
+- gamified v2がv1を置き換えず追加扱いになっている: pass
+- gamified v2 promptが既存作品名、既存キャラクター名、特定絵柄を要求していない: pass
+- gamified v2が競争、ランキング、点数化に寄っていない: pass
 - 既存IP模倣指示なし: pass
 - PPTX、PNG生成なし: pass
 - 秘密情報、ブラウザプロファイル混入なし: pass
@@ -85,4 +93,4 @@ pass
 固定情報源や受け入れ基準には、避ける表現の一覧として強い言葉が残っている。
 これはチェック用の基準として必要なため、教材本文とは分けて扱う。
 
-次に進むなら、生成HTML/PDFの目視確認後にPPTX、PNGなどの出力へ進む。
+次に進むなら、gamified v2の方向性を人間が確認し、画像を1枚ずつ生成して候補レビューへ進む。
