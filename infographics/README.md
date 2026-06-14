@@ -17,3 +17,8 @@
 - `visual_prompt_style_guide.md`: 共通スタイル。
 - `kids_infographic_prompt_packets.md`: 子供向け4日分。
 - `parents_infographic_prompt_packets.md`: 親向け説明資料。
+- `kids_gamified_v2_prompt_packets.md`: 子供向けgamified v2画像生成prompt。
+- `parents_one_page_plan_infographic.md`: 相手の親に最初に見せる、4日間の目的・流れ・進め方・最終目標が1枚でわかる案内書prompt。
+- `parents_four_day_overview_infographic.md`: 1日目から4日目まで、各日の目的とやることが1枚でわかる親向け説明prompt。
+- `parents_gamified_v2_prompt_packets.md`: 子供向けDay1 v2画像と同じ温かいカード・ノート調で作る親向け説明prompt。
+- `card_art_gamified_v2_prompt_packets.md`: gamified v2カードアート用prompt。

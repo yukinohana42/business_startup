@@ -4,9 +4,14 @@
 
 Codexは、docs-onlyで要件定義、全体構成、成果物仕様、QAレビュー、ワークシート、親向け説明スライド、子供向けスライド、インフォグラフィックprompt、進行台本、カード教材を整えた。
 さらに、v1を残したまま、子供向けのワクワク感を強めるgamified v2のビジュアル方針、画像生成prompt、カードアートprompt、スライド対応表を追加した。
+子供向けDay1 v2の候補画像の雰囲気に合わせて、親向け説明用のgamified v2 prompt packetも追加した。
+さらに、相手の親に最初に見せる1枚案内書として、4日間の目的、流れ、進め方、最終目標、安心ポイントがわかる親向けone-page plan infographic promptを追加した。
+加えて、1日目から4日目までの各日の目的とやることが1枚でわかる親向けfour-day overview infographic promptを追加した。
+家のPCのCodexで再開するための初回貼り付けpromptを `prompts/HOME_CODEX_RESUME_PROMPT.md` に追加した。
 
-次は、gamified v2の方向性を人間が確認する。
-確認後、画像生成を1枚ずつ行い、PPTX/PNG化へ進む。
+次は、gamified v2全体と親向けgamified v2の方向性を人間が確認する。
+確認後、まず親向けone-page plan infographicとfour-day overview infographicを1枚ずつ生成し、相手の親に伝わるかを確認する。
+問題なければ、残りの親向け画像生成、子供向け残り画像生成、PPTX/PNG化へ進む。
 PDF、PPTX、PNG、HTML/CSSなどの出力は、人間確認後に進める。
 
 ## Priority 1: 固定情報源の確定
@@ -41,10 +46,17 @@ PDF、PPTX、PNG、HTML/CSSなどの出力は、人間確認後に進める。
 
 - [x] v1を残したまま、gamified v2のビジュアル方針を追加する。
 - [x] 子供向けgamified v2インフォグラフィックprompt packetを追加する。
+- [x] 親向けgamified v2インフォグラフィックprompt packetを追加する。
+- [x] 親向けone-page plan infographic promptを追加する。
+- [x] 親向けfour-day overview infographic promptを追加する。
+- [x] 家のPCのCodexで再開するためのpromptを追加する。
 - [x] カードアート用gamified v2 prompt packetを追加する。
 - [x] v2スライド化の対応表を追加する。
 - [x] v2カード台紙仕様を追加する。
 - [ ] gamified v2の方向性を人間が確認する。
+- [ ] 親向けgamified v2の方向性を人間が確認する。
+- [ ] 親向けone-page plan infographic画像を1枚生成して候補に置く。
+- [ ] 親向けfour-day overview infographic画像を1枚生成して候補に置く。
 - [ ] 画像を1枚ずつ生成して候補に置く。
 - [ ] 画像候補を人間が確認する。
 - [ ] 確認済み画像をPPTX/PNG/カード台紙へ組み込む。
@@ -61,6 +73,9 @@ PDF、PPTX、PNG、HTML/CSSなどの出力は、人間確認後に進める。
 - 価値変化、価値の種、助けたい人、欲しいサイン、ピッチ質問のカード教材を追加した。
 - gamified v2は、既存作品をまねず、冒険、収集、カード、修行、レーダーなどの一般的な構造だけを使う方針にした。
 - gamified v2の画像promptでは、既存作品名、既存キャラクター名、特定絵柄を入れないルールを明記した。
+- 親向けgamified v2では、子供向けDay1画像のカード・ノート調に合わせつつ、親を採点者ではなく伴走者として見せる方針にした。
+- 親向けone-page plan infographicでは、相手の親が今回の取り組みを知らなくても、目的、4日間の流れ、進め方、最終目標、安心ポイントが1枚でわかるようにした。
+- 親向けfour-day overview infographicでは、各日の目的とやることを、Day1からDay4まで1枚で見られるようにした。
 - 禁止表現は、固定情報源の禁止リストとしては残っている。
 - 生成物ファイルの混入は見つからない。
 
@@ -76,6 +91,7 @@ PDF、PPTX、PNG、HTML/CSSなどの出力は、人間確認後に進める。
 ## 次にCodexへ依頼するとよいタスク
 
 1. `docs/gamified_visual_v2_direction.md` の方向性を確認してください。
-2. `infographics/kids_gamified_v2_prompt_packets.md` から、まず1枚だけ画像生成してください。
-3. 画像候補の雰囲気を確認してください。
-4. 問題なければ、残りの画像生成、PPTX/PNG化へ進んでください。
+2. `infographics/parents_one_page_plan_infographic.md` を使って、親向け1枚案内書を画像生成してください。
+3. `infographics/parents_four_day_overview_infographic.md` を使って、4日間の中身がわかる親向け1枚を画像生成してください。
+4. 画像候補の雰囲気を確認してください。
+5. 問題なければ、残りの親向け画像、子供向け画像、PPTX/PNG化へ進んでください。
