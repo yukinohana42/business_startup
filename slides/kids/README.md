@@ -13,3 +13,9 @@
 - Markdown slide形式で作る。
 
 区切りは `---` を使う。
+
+## v2設計資料
+
+- `gamified_v2_slide_storyboard.md`: 4日分のv2画面対応表。
+- `day1_gamified_v2_lecture_prompt_packet.md`: Day1当日レクチャー用の8枚構成、カード連動、画像生成prompt。
+- `day2_gamified_v2_lecture_prompt_packet.md`: Day2当日レクチャー用の8枚構成、価値の種カード連動、画像生成prompt。
