@@ -22,3 +22,4 @@
 - `parents_four_day_overview_infographic.md`: 1日目から4日目まで、各日の目的とやることが1枚でわかる親向け説明prompt。
 - `parents_gamified_v2_prompt_packets.md`: 子供向けDay1 v2画像と同じ温かいカード・ノート調で作る親向け説明prompt。
 - `card_art_gamified_v2_prompt_packets.md`: gamified v2カードアート用prompt。
+- `day2_regional_doctor_online_mentoring_case_prompt.md`: Day2の見本として使う、地域で働く若手医師へのオンライン指導事業の1枚infographic prompt。
