@@ -44,6 +44,10 @@ Codexは、最終的に次の成果物をプロジェクト内に必ず作るこ
 - `slides/parents/parent_explanation_slides.md`: 親向け説明スライド初期版
 - `slides/kids/`: 4日分のレクチャースライド初期版
 - `infographics/`: スライド代替用のインフォグラフィックprompt packet
+- `docs/gamified_visual_v2_direction.md`: より冒険感のあるv2ビジュアル方針
+- `slides/kids/gamified_v2_slide_storyboard.md`: v2スライド化の対応表
+- `scripts/`: 4日分の親向け進行台本
+- `cards/`: ワークで使うカード教材
 - `.agents/skills/`: Codex用の詳細Skill定義
 - `prompts/`: Codexに順番に依頼するためのタスクプロンプト
 
@@ -52,3 +56,4 @@ Codexは、最終的に次の成果物をプロジェクト内に必ず作るこ
 まずはMarkdownで内容を固定する。PDF、PPTX、PNG、HTML/CSSへの変換は、内容レビュー後に行う。
 
 教材生成物とdocs-only作業は分ける。画像生成を行う場合は、まずprompt packetを作り、人間が確認してから1枚ずつ進める。
+v2の画像生成では、既存作品名、既存キャラクター名、特定絵柄をpromptに入れない。
